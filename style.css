@@ -1,0 +1,471 @@
+/* Fonts and Colors
+font-family: 'Mukta', sans-serif;
+font-family: 'Poppins', sans-serif;
+color: #3d3d3d;
+color: #9c9c9c;
+color: #e4e2e2;
+color: rgb(238, 238, 238)
+color: rgb(192, 192, 192)
+color: rgb(0, 183, 255)*/
+
+html,body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+/*********Navbar*********/
+.navbar {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* height: 4rem; */
+    padding: 1.5rem 2rem;
+    align-items: center;
+}
+
+.navbarMobile {
+    display: none;
+}
+
+.navbarMobile ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 0;
+}
+     
+.leftMenus {
+    display: flex;
+}
+
+.logoImg {
+    height: 4rem;
+    width: auto;
+}
+
+.leftMenus div a {
+    display: inline-block;
+    font-size: 2.7rem;
+    text-decoration: none;
+    color: #9c9c9c;
+}
+
+.rightMenu {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menus {
+    list-style: none;
+    display: flex;
+    column-gap: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: normal;
+}
+
+
+/*********Main section*********/
+.main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 2rem 1.5rem;
+    background-color: #e4e2e2;
+}
+.leftMain img {
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+}
+
+.rightMain {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rightMain h1 {
+    font-size: 3.2rem;
+    color: #3d3d3d;
+}
+
+.rightMain h3 {
+    color: #3d3d3d;
+    font-size: 1.5rem;
+}
+
+.mainBtn {
+    padding: 1rem 0;
+    margin-top: 2.5rem;
+    width: 25rem;
+    border: none;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    font-size: 1.4rem;
+    font-family: inherit;
+}
+
+
+/*********Information section*********/
+.information {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding: 2rem 1.5rem;
+  column-gap: 1.5rem;
+}
+
+.leftInfo img {
+  width: 100%;
+  height: auto;
+  padding-right: 1.5rem;
+}
+
+.leftInfo h2 {
+    color: #3d3d3d;
+    font-size: 3rem;
+    font-weight:700;
+    margin: 1.3rem 0;
+}
+
+.leftInfo p {
+    color: #3d3d3d;
+    font-size: 1.1rem;
+}
+
+.leftInfo h5 {
+    color: #3d3d3d;
+    font-size: 1rem;
+}
+
+.infoBlock {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+}
+
+.infoBlock.first {
+    padding: 0 2rem 2rem 2rem;
+}
+
+.infoBlock.second, .infoBlock.third  {
+    padding: 2rem;
+}
+
+.infoBlock.third  {
+    background-color: rgb(238, 238, 238);
+}
+
+.infoBlock img {
+  width: 100%;
+}
+
+.infoContent {
+    padding-left: 3rem;
+    color: #3d3d3d;
+}
+
+.infoBlock h1{
+    font-size: 2.5rem;
+}
+
+.infoBlock p {
+    font-size: 1.5rem;
+}
+
+.infoBlock a {
+    text-decoration: none;
+    color: rgb(0, 183, 255);
+    font-size: 1.4rem;
+}
+
+
+/*********Learning section*********/
+.learning-section {
+    background-color: #e4e2e2;
+}
+
+.learning{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 0 4.5rem 4.5rem 4.5rem;
+    justify-content: center;
+}
+
+.learnHeading {
+  padding: 2rem 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 2.8rem;
+  color: #3d3d3d;
+}
+
+.learnBlock {
+    color: #3d3d3d;
+    background-color: #ffffff;
+}
+
+.learning img {
+width: 100%;
+}
+
+.courseContent{
+    padding: 2rem;
+    color: #3d3d3d;
+}
+
+.courseContent h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.courseContent h3 {
+    font-size: 1.4rem;
+}
+
+.courseContent p {
+    font-size: 1.3rem;
+}
+
+
+/*********Thesis section*********/
+.thesis {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 2rem 1.5rem;
+    column-gap: 1.5rem;
+}
+
+.leftThesis video {
+    width: 100%;
+    height: auto;
+}
+
+.thesisHeading {
+    padding: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 3rem;
+    color: #3d3d3d;
+}
+  
+.leftThesis img {
+    width: 100%;
+    height: auto;
+    padding-right: 1.5rem;
+}
+  
+.leftThesis h2 {
+    color: #3d3d3d;
+    font-size: 3rem;
+    font-weight:700;
+    margin: 1.3rem 0;
+}
+  
+  .leftThesis p {
+    color: #3d3d3d;
+    font-size: 1.1rem;
+}
+  
+.leftThesis h5 {
+    color: #3d3d3d;
+    font-size: 1rem;
+}
+  
+.thesisBlock {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    align-items: center;
+}
+  
+.thesisBlock.first {
+    padding: 2rem;
+    background-color: #e4e2e2;
+}
+  
+.thesisBlock.second {
+    padding: 2rem;
+}
+  
+.thesisBlock img {
+    width: 100%;
+}
+  
+.thesisContent {
+    padding-left: 3rem;
+    color: #3d3d3d;
+}
+  
+.thesisBlock h1{
+    font-size: 2.5rem;
+}
+  
+.thesisBlock p {
+    font-size: 1.5rem;
+}
+  
+
+/*********Footer section*********/
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem 3rem 1rem;
+    border-top: 1px solid rgb(192, 192, 192);
+    font-size: 1.2rem;
+    color: #3d3d3d;
+}
+
+footer div ul {
+    display: flex;
+    list-style: none;
+}
+
+footer div ul li:first-child{
+    padding-right: 1rem;
+}
+
+
+/*********Media Queries*********/
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbarMobile {
+        display: block;
+        align-items: center;
+    }
+
+    .mainBtn {
+        width: 10rem;
+    }
+
+    .infoBlock {
+        grid-template-columns: 100%;
+    }
+
+    .rightMain {
+        padding: 2rem;
+    }
+
+    .main h1 {
+        font-size: 1.2rem;
+    }
+
+    .main h3 {
+        font-size: 0.8rem;
+    }
+
+    .mainBtn {
+        padding: 0.3rem 0;
+        width: 7rem;
+        font-size: 1rem;
+    }
+
+    .information {
+        grid-template-columns: 100%;
+    }
+
+    .infoBlock {
+        grid-template-columns: 100%;
+    }
+
+    .learning {
+        grid-template-columns: 100%;
+    }
+
+    .thesis {
+        grid-template-columns: 100%;
+    }
+
+    .thesisBlock {
+        grid-template-columns: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+ 
+    .main {
+        grid-template-columns: 100%;
+        padding: 0;
+    }
+
+    .main h1 {
+        font-size: 2.2rem;
+        font-weight: bold;
+    }
+
+    .main h3 {
+        font-size: 1.2rem;
+    }
+
+    .mainBtn {
+        padding: 0.9rem 0;
+        font-size: 1.1rem;
+        width: 100%;
+        background-color: #9c9c9c;
+    }
+
+    .leftInfo {
+        display: none;
+    }
+
+    .infoBlock.third  {
+        background-color: #ffffff;
+    }
+
+    .learning-section {
+        background-color: #ffffff;
+        border-top: 1px solid #e4e2e2;
+        border-bottom: 1px solid #e4e2e2;
+    }
+
+    .learnHeading {
+        font-size: 3.5rem;
+    }
+
+    .learning{
+        grid-template-columns: 100%;
+        padding: 2rem 2rem 4rem 2rem;
+    }
+
+    .learnBlock {
+       background-color: #e4e2e2;
+    }
+
+    .learnImg, .learnCourse {
+        display: none;
+    }
+
+    .thesis {
+        padding: 0;
+    }
+
+    .leftThesis h2, .leftThesis p {
+        display: none;
+    }
+
+    .rightThesis {
+        display: none;
+    }
+
+    footer {
+        border: none;
+        padding: 3rem 1rem 1rem 1rem;
+    }
+
+    .rightFooter {
+        display: none;
+    }
+}
